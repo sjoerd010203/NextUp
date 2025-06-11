@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B14CEAA2DF622F1003106A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14CEA92DF622F0003106A2 /* ViewController.swift */; };
 		2B7D4E202DF5E181001EDC80 /* NextUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E1F2DF5E181001EDC80 /* NextUpApp.swift */; };
-		2B7D4E222DF5E181001EDC80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E212DF5E181001EDC80 /* ContentView.swift */; };
+		2B7D4E222DF5E181001EDC80 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E212DF5E181001EDC80 /* MainScreen.swift */; };
 		2B7D4E242DF5E181001EDC80 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E232DF5E181001EDC80 /* Item.swift */; };
 		2B7D4E262DF5E182001EDC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D4E252DF5E182001EDC80 /* Assets.xcassets */; };
 		2B7D4E2A2DF5E182001EDC80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D4E292DF5E182001EDC80 /* Preview Assets.xcassets */; };
+		2B7D4E352DF5E296001EDC80 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E342DF5E296001EDC80 /* NavigationConfigurator.swift */; };
+		2B7D4E372DF5E2D9001EDC80 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E362DF5E2D9001EDC80 /* CustomButton.swift */; };
+		2B7D4E392DF5E2F3001EDC80 /* ButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E382DF5E2F3001EDC80 /* ButtonItem.swift */; };
+		2B7D4E3B2DF5E322001EDC80 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E3A2DF5E322001EDC80 /* Challenge.swift */; };
+		2B7D4E3D2DF5E33A001EDC80 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E3C2DF5E33A001EDC80 /* Shared.swift */; };
+		2B7D4E3F2DF5E343001EDC80 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E3E2DF5E343001EDC80 /* Archive.swift */; };
+		2B7D4E412DF5E34B001EDC80 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E402DF5E34B001EDC80 /* Account.swift */; };
+		2B7D4E432DF5E8E5001EDC80 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4E422DF5E8E5001EDC80 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B14CEA92DF622F0003106A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B7D4E1C2DF5E181001EDC80 /* NextUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7D4E1F2DF5E181001EDC80 /* NextUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextUpApp.swift; sourceTree = "<group>"; };
-		2B7D4E212DF5E181001EDC80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B7D4E212DF5E181001EDC80 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		2B7D4E232DF5E181001EDC80 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2B7D4E252DF5E182001EDC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B7D4E272DF5E182001EDC80 /* NextUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NextUp.entitlements; sourceTree = "<group>"; };
 		2B7D4E292DF5E182001EDC80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B7D4E342DF5E296001EDC80 /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		2B7D4E362DF5E2D9001EDC80 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2B7D4E382DF5E2F3001EDC80 /* ButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonItem.swift; sourceTree = "<group>"; };
+		2B7D4E3A2DF5E322001EDC80 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		2B7D4E3C2DF5E33A001EDC80 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		2B7D4E3E2DF5E343001EDC80 /* Archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		2B7D4E402DF5E34B001EDC80 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		2B7D4E422DF5E8E5001EDC80 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +72,9 @@
 		2B7D4E1E2DF5E181001EDC80 /* NextUp */ = {
 			isa = PBXGroup;
 			children = (
+				2B7D4E302DF5E1BB001EDC80 /* Views */,
+				2B7D4E332DF5E279001EDC80 /* Extra */,
 				2B7D4E1F2DF5E181001EDC80 /* NextUpApp.swift */,
-				2B7D4E212DF5E181001EDC80 /* ContentView.swift */,
 				2B7D4E232DF5E181001EDC80 /* Item.swift */,
 				2B7D4E252DF5E182001EDC80 /* Assets.xcassets */,
 				2B7D4E272DF5E182001EDC80 /* NextUp.entitlements */,
@@ -70,6 +89,30 @@
 				2B7D4E292DF5E182001EDC80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B7D4E302DF5E1BB001EDC80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D4E212DF5E181001EDC80 /* MainScreen.swift */,
+				2B7D4E3A2DF5E322001EDC80 /* Challenge.swift */,
+				2B7D4E3C2DF5E33A001EDC80 /* Shared.swift */,
+				2B7D4E3E2DF5E343001EDC80 /* Archive.swift */,
+				2B7D4E402DF5E34B001EDC80 /* Account.swift */,
+				2B7D4E422DF5E8E5001EDC80 /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B7D4E332DF5E279001EDC80 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D4E342DF5E296001EDC80 /* NavigationConfigurator.swift */,
+				2B7D4E362DF5E2D9001EDC80 /* CustomButton.swift */,
+				2B7D4E382DF5E2F3001EDC80 /* ButtonItem.swift */,
+				2B14CEA92DF622F0003106A2 /* ViewController.swift */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B7D4E222DF5E181001EDC80 /* ContentView.swift in Sources */,
+				2B7D4E3F2DF5E343001EDC80 /* Archive.swift in Sources */,
+				2B7D4E412DF5E34B001EDC80 /* Account.swift in Sources */,
+				2B7D4E392DF5E2F3001EDC80 /* ButtonItem.swift in Sources */,
+				2B7D4E222DF5E181001EDC80 /* MainScreen.swift in Sources */,
+				2B7D4E372DF5E2D9001EDC80 /* CustomButton.swift in Sources */,
 				2B7D4E242DF5E181001EDC80 /* Item.swift in Sources */,
+				2B14CEAA2DF622F1003106A2 /* ViewController.swift in Sources */,
+				2B7D4E3B2DF5E322001EDC80 /* Challenge.swift in Sources */,
+				2B7D4E3D2DF5E33A001EDC80 /* Shared.swift in Sources */,
+				2B7D4E352DF5E296001EDC80 /* NavigationConfigurator.swift in Sources */,
+				2B7D4E432DF5E8E5001EDC80 /* Settings.swift in Sources */,
 				2B7D4E202DF5E181001EDC80 /* NextUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +330,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -286,8 +339,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -296,7 +348,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SjoerdvanLexmond.NextUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +369,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -324,8 +378,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -334,7 +387,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SjoerdvanLexmond.NextUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

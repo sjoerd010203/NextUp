@@ -1,8 +1,11 @@
-//
-//  ButtonItem.swift
-//  NextUp
-//
-//  Created by Sjoerd van Lexmond on 08/06/2025.
-//
-
 import Foundation
+import SwiftUI
+
+struct ButtonItem: Identifiable {
+    let id: UUID
+    let leftText: String
+    let rightText: String
+    let useImageBackground: Bool
+    let backgroundImageName: String
+    let backgroundColor: Color
+}
