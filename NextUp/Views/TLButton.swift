@@ -1,18 +1,18 @@
 //
-//  Challenge1.swift
+//  TLButton.swift
 //  NextUp
 //
-//  Created by Sjoerd van Lexmond on 13/06/2025.
+//  Created by Sjoerd van Lexmond on 14/06/2025.
 //
 
 import SwiftUI
 
-struct Challenge1: View {
+struct TLButton: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    Challenge1()
+    TLButton()
 }
